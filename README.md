@@ -29,7 +29,10 @@ IT
 
 ### Development
 
+* [Docker](doc/Docker.md)
 * [Git](doc/Git.md)
+* [Notepad++](doc/Notepad++.md)
+* [Python](doc/Python.md)
 * [Vim](doc/Vim.md)
 
 ### SSH
@@ -37,7 +40,13 @@ IT
 * [PuTTY](doc/PuTTY.md)
 * [WinSCP](doc/WinSCP.md)
 
+### Operating system
+
+* [Windows](doc/Windows.md)
+
 ### Miscellaneous
 
+* [7-Zip](doc/7-Zip.md)
 * [Nagios](doc/Nagios.md)
 * [NConvert](doc/NConvert.md)
+* [VLC](doc/VLC.md)
