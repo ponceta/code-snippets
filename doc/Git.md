@@ -242,3 +242,29 @@ git stash
 git stash branch <branch> stash@{0}
 git push -u origin <branch>
 ```
+
+Partial Staging
+-----------
+
+### Stage only some modifications in a file
+
+git add -p
+
+Worktree
+-----------
+
+### Create a worktree for pushing specific commits
+
+git worktree add ../remove_fk_wastewater_structure
+git log
+git remote -v
+git fetch upstream
+git rebase -i upstream/master
+git push -u origin remove_fk_wastewater_structure
+
+### Remove worktree
+
+cd ..
+rm -rf remove_fk_wastewater_structure/
+
+About worktree
