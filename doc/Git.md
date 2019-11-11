@@ -248,23 +248,30 @@ Partial Staging
 
 ### Stage only some modifications in a file
 
+```bash
 git add -p
+```
+
 
 Worktree
 -----------
 
 ### Create a worktree for pushing specific commits
 
+```bash
 git worktree add ../remove_fk_wastewater_structure
 git log
 git remote -v
 git fetch upstream
 git rebase -i upstream/master
 git push -u origin remove_fk_wastewater_structure
+```
 
 ### Remove worktree
 
+```bash
 cd ..
 rm -rf remove_fk_wastewater_structure/
+```
 
-About worktree
+About worktree https://git-scm.com/docs/git-worktree
